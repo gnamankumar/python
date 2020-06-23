@@ -1,0 +1,14 @@
+>>> tup = (23,45,67,89)
+>>> tup
+(23, 45, 67, 89)
+>>> tup[1]
+45
+>>> tup[1:]
+(45, 67, 89)
+>>> tup.
+SyntaxError: invalid syntax
+>>> tup.count
+<built-in method count of tuple object at 0x02714230>
+>>> s = {23, 25, 6, 15,98}
+>>> s
+{98, 6, 15, 23, 25}
