@@ -1,0 +1,56 @@
+>>> data = {1:'Naman',2:'Kiran',4:'Harsh'}
+>>> data
+{1: 'Naman', 2: 'Kiran', 4: 'Harsh'}
+>>> data[1]
+'Naman'
+>>> data[4]
+'Harsh'
+>>> data[3]
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    data[3]
+KeyError: 3
+>>> data.get(1)
+'Naman'
+>>> data.get(3)
+>>> print(data.get(3))
+None
+>>> data.get(1,'Not Found')
+'Naman'
+>>> data.get(3,'Not Found')
+'Not Found'
+>>> keys = ['Naman','Kiran','Harsh']
+>>> values = ['Python','Java','Js']
+>>> data = dict(zip(keys,values))
+>>> data
+{'Naman': 'Python', 'Kiran': 'Java', 'Harsh': 'Js'}
+>>> data['Kiran']
+'Java'
+>>> data['Monika']='CS'
+>>> data
+{'Naman': 'Python', 'Kiran': 'Java', 'Harsh': 'Js', 'Monika': 'CS'}
+>>> #delete in dictionery
+>>> del data['Harsh']
+>>> data
+{'Naman': 'Python', 'Kiran': 'Java', 'Monika': 'CS'}
+>>> #create a dic which have list
+>>> prog = {'Js':'Atom', 'CS':'VS','Python':['Pycharm','Sublime'],'Java':{'JSE':'Netbeans','JEE':'Eclipse'}}
+>>> prog
+{'Js': 'Atom', 'CS': 'VS', 'Python': ['Pycharm', 'Sublime'], 'Java': {'JSE': 'Netbeans', 'JEE': 'Eclipse'}}
+>>> prog[JS]
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    prog[JS]
+NameError: name 'JS' is not defined
+>>> prog[Js]
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    prog[Js]
+NameError: name 'Js' is not defined
+>>> prog['Js']
+'Atom'
+>>> prog['Java']
+{'JSE': 'Netbeans', 'JEE': 'Eclipse'}
+>>> prog['Java']['JEE']
+'Eclipse'
+>>> 
