@@ -1,0 +1,53 @@
+>>> num = 5
+>>> type(num)
+<class 'int'>
+>>> num = 5.1
+>>> type(num)
+<class 'float'>
+>>> num = 6+1i
+SyntaxError: invalid syntax
+>>> num =6+1j
+>>> type(num)
+<class 'complex'>
+>>> a=2.3
+>>> b=int(a)
+>>> b
+2
+>>> a=2
+>>> b = float(a)
+>>> b
+2.0
+>>> b=7
+>>> c = complex(a,b)
+>>> c
+(2+7j)
+>>> b<a
+False
+>>> a = b<a
+>>> a
+False
+>>> type(a)
+<class 'bool'>
+>>> lst = [25,35,45,6,78]
+>>> type(lst)
+<class 'list'>
+>>> s = {25,45,6,78,58,98,4}
+>>> type(s)
+<class 'set'>
+>>> t = (25,45,87,15,20,10,65)
+>>> type(t)
+<class 'tuple'>
+>>> str = "Naman"
+>>> type(str)
+<class 'str'>
+>>> range(10)
+range(0, 10)
+>>> tuple(range(10))
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+>>> d = {'naman':'samsung','rahul':'note8'}
+>>> d.keys()
+dict_keys(['naman', 'rahul'])
+>>> d.values()
+dict_values(['samsung', 'note8'])
+>>> d['naman']
+'samsung'
