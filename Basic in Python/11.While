@@ -1,0 +1,11 @@
+#While Loop Use
+x=1
+y=2
+
+while x<=5:
+    print(" Hello",end="")
+    while y<=5:
+        print(" World! ",end="")
+        y=y+1
+    x=x+1
+    print()
