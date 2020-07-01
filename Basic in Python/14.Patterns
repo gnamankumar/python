@@ -1,0 +1,49 @@
+#1
+#Another type 
+
+for i in range(4):
+    for j in range(4):
+        print("# ",end="")
+
+    print()
+    
+
+# Output
+
+# # # # 
+# # # # 
+# # # # 
+# # # # 
+
+#2
+#Another type 
+
+for i in range(4):
+    for j in range(i+1):
+        print("# ",end="")
+
+    print()
+    
+    
+   #OutPut
+# 
+# # 
+# # # 
+# # # # 
+
+
+#3
+#Another type 
+
+for i in range(4):
+    for j in range(4-1):
+        print("# ",end="")
+
+    print()
+    
+    
+    #Output
+# # # # 
+# # # 
+# # 
+# 
