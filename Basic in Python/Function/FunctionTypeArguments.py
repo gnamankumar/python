@@ -1,3 +1,5 @@
+Actual Arguments has 4 types:-1.Position,2.Keyword,3.Default,4.Variable length
+
 '''
 
 def person(name,age=18):
