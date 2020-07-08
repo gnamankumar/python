@@ -1,0 +1,19 @@
+#u r calling a Function it self
+
+import sys #To check the limit of recusrion
+
+sys.setrecursionlimit(2000)
+
+print(sys.getrecursionlimit())
+
+i = 0
+def greet():
+    global i
+    i+=1
+    print("HELLO ", i)
+    greet()
+
+
+
+
+greet()
